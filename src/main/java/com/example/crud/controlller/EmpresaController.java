@@ -28,7 +28,7 @@ public class EmpresaController {
     empresa.save(empresaobj);
   }
 
-  @PutMapping("/{id}")
+  @PutMapping
   public void update(@RequestBody com.example.crud.models.Empresa empresaobj){
     empresa.save(empresaobj);
   }
